@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'mona_sharkregular';
+    src: url('/fonts/mona_shark-webfont.woff2') format('woff2'),
+         url('/fonts/mona_shark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-panel{
+    display: flex;
+    background-image: url("/media/sharkBackground.png");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    width: 40vw;
+}
+
+.right-panel{
+    width: 60vw;
+}
+
+.icon-title{
+    display: flex;
+}
+
+.shark-fin{
+    height: 20vh;
+}
+
+h1{
+    font: 3rem "mona_sharkregular"
+
+}
