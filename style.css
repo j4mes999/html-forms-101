@@ -18,7 +18,8 @@
 }
 
 .left-panel{
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     background-image: url("/media/sharkBackground.png");
     background-origin: border-box;
     background-repeat: no-repeat;
@@ -30,7 +31,6 @@
 
 .icon-title{
     display: flex;
-    flex: 1;
     background-color: rgba(0, 0, 0, 0.7);
     gap: 1vw;
     justify-content: center;
@@ -42,7 +42,8 @@
 }
 
 h1{
-    font: 3rem "mona_sharkregular"
+    font: 3rem "mona_sharkregular";
+    color: white;
 
 }
 
