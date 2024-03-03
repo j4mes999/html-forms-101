@@ -65,6 +65,7 @@ h1{
     font-size: 1.5rem;
     padding-top: 5vh;
     padding-right: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .last-paragraph{
@@ -78,4 +79,25 @@ h1{
 
 .form-title{
     width: 100%;
+    margin: 30px 0;
+    font-size: 2rem;
+}
+
+.form-input {
+    margin-bottom: 40px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    width: 40%;
+}
+
+input{
+    padding: 10px 20px;
+}
+
+
+input:focus{
+    border: 2.3px solid #06b1c9;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
