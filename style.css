@@ -12,6 +12,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'plus_jakarta_sansregular';
+    src: url('/fonts/plusjakartasans-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/fonts/plusjakartasans-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .container{
     display: flex;
     min-height: 100vh;
@@ -40,7 +49,7 @@
 }
 
 .shark-fin{
-    height: 12vh;
+    height: 22vh;
 }
 
 h1{
@@ -65,7 +74,7 @@ h1{
     font-size: 1.5rem;
     padding-top: 5vh;
     padding-right: 4vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'plus_jakarta_sansregular', Tahoma, sans-serif;
 }
 
 .last-paragraph{
@@ -75,6 +84,8 @@ h1{
 .form{
     display: flex;
     flex-flow: row wrap;
+    font-family: 'plus_jakarta_sansregular', Tahoma, sans-serif;
+    box-shadow: 5px 5px 9px #e4e4e4;
 }
 
 .form-title{
@@ -94,10 +105,18 @@ h1{
 
 input{
     padding: 10px 20px;
+    outline: none;
+    border: 2.3px solid #E5E7EB;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 0.5rem;
 }
 
 
 input:focus{
-    border: 2.3px solid #06b1c9;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border: 2.3px solid #5bc9d4;
+}
+
+input:invalid{
+    border: 2.3px solid #ff2525;
 }
