@@ -117,6 +117,24 @@ input:focus{
     border: 2.3px solid #5bc9d4;
 }
 
-input:invalid{
-    border: 2.3px solid #ff2525;
+button{
+    background: #5bc9d4;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+}
+
+.button-create{
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+
+.footer{
+    font-family: 'plus_jakarta_sansregular', Tahoma, sans-serif;
 }
