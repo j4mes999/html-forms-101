@@ -34,6 +34,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: grey;
+    background-position: center;
     width: 40vw;
 
 }
@@ -137,4 +138,26 @@ button{
 
 .footer{
     font-family: 'plus_jakarta_sansregular', Tahoma, sans-serif;
+    margin-bottom: 10vh;
+}
+
+@media (max-width: 846px) {
+    .container{
+        flex-direction: column;
+    }
+    .left-panel,
+    .right-panel{
+        width: 100%;
+    }
+    .icon-title{
+        top: 0;
+    }
+    .form{
+        flex-direction: column;
+    }
+    .form-input{
+        width: 100%;
+        padding-right: 13px;
+    }
+    
 }
