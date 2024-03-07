@@ -6,16 +6,16 @@
 
 @font-face {
     font-family: 'mona_sharkregular';
-    src: url('mona_shark-webfont.woff2') format('woff2'),
-         url('mona_shark-webfont.woff') format('woff');
+    src: url('/mona_shark-webfont.woff2') format('woff2'),
+         url('/mona_shark-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'plus_jakarta_sansregular';
-    src: url('plusjakartasans-variablefont_wght-webfont.woff2') format('woff2'),
-         url('plusjakartasans-variablefont_wght-webfont.woff') format('woff');
+    src: url('/plusjakartasans-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/plusjakartasans-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -29,7 +29,7 @@
 .left-panel{
     display: flex;
     flex-direction: column;
-    background-image: url("sharkBackground.png");
+    background-image: url("/sharkBackground.png");
     background-origin: border-box;
     background-repeat: no-repeat;
     background-size: cover;
